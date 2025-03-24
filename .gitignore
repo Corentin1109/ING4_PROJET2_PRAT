@@ -1,0 +1,26 @@
+# Fichiers compilés Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environnements virtuels
+venv/
+env/
+
+# Fichiers de logs
+*.log
+
+# Configurations d’éditeur (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Dépendances installées (évite d'envoyer le dossier 'site-packages')
+/*.egg-info
+/dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Spyder settings
+.spyproject/
